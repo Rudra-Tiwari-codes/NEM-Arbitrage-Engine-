@@ -1,24 +1,14 @@
 {
-  "lastUpdated": "2025-12-27T13:45:26.306854",
+  "lastUpdated": "2025-12-27T13:52:37.232097",
   "region": "NSW1",
   "stats": {
-    "current": 57.06,
-    "mean": 25.38,
+    "current": 36.06,
+    "mean": 25.47,
     "min": -39.37,
     "max": 73.2,
-    "count": 575
+    "count": 577
   },
   "prices": [
-    {
-      "time": "15:30",
-      "fullDate": "2025-12-27 15:30:00",
-      "price": 0.0
-    },
-    {
-      "time": "15:35",
-      "fullDate": "2025-12-27 15:35:00",
-      "price": 0.0
-    },
     {
       "time": "15:40",
       "fullDate": "2025-12-27 15:40:00",
@@ -508,19 +498,19 @@
       "time": "23:45",
       "fullDate": "2025-12-27 23:45:00",
       "price": 57.06
+    },
+    {
+      "time": "23:50",
+      "fullDate": "2025-12-27 23:50:00",
+      "price": 56.98
+    },
+    {
+      "time": "23:55",
+      "fullDate": "2025-12-27 23:55:00",
+      "price": 36.06
     }
   ],
   "signals": [
-    {
-      "time": "22:10",
-      "price": 53.53,
-      "signal": "sell"
-    },
-    {
-      "time": "22:15",
-      "price": 54.0,
-      "signal": "sell"
-    },
     {
       "time": "22:20",
       "price": 35.88,
@@ -610,13 +600,23 @@
       "time": "23:45",
       "price": 57.06,
       "signal": "sell"
+    },
+    {
+      "time": "23:50",
+      "price": 56.98,
+      "signal": "sell"
+    },
+    {
+      "time": "23:55",
+      "price": 36.06,
+      "signal": "hold"
     }
   ],
   "strategies": [
     {
       "name": "Perfect Foresight",
-      "profit": 6669.06,
-      "charges": 57,
+      "profit": 6895.66,
+      "charges": 55,
       "discharges": 38
     },
     {
@@ -633,17 +633,17 @@
     },
     {
       "name": "Dynamic Programming",
-      "profit": 21153.59,
+      "profit": 21252.14,
       "charges": 201,
       "discharges": 201
     }
   ],
   "bestStrategy": "Dynamic Programming",
-  "bestProfit": 21153.59,
-  "annualizedProfit": 3860529.66,
+  "bestProfit": 21252.14,
+  "annualizedProfit": 3878515.37,
   "dataRange": {
-    "start": "2025-12-25 23:45:00",
-    "end": "2025-12-27 23:45:00",
+    "start": "2025-12-25 23:55:00",
+    "end": "2025-12-27 23:55:00",
     "days": 2
   }
 }

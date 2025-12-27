@@ -1,24 +1,14 @@
 {
-  "lastUpdated": "2025-12-27T13:45:28.565284",
+  "lastUpdated": "2025-12-27T13:52:39.848283",
   "region": "TAS1",
   "stats": {
     "current": 35.06,
-    "mean": 10.68,
+    "mean": 10.77,
     "min": -107.18,
     "max": 102.69,
-    "count": 575
+    "count": 577
   },
   "prices": [
-    {
-      "time": "15:30",
-      "fullDate": "2025-12-27 15:30:00",
-      "price": 20.07
-    },
-    {
-      "time": "15:35",
-      "fullDate": "2025-12-27 15:35:00",
-      "price": 1.1
-    },
     {
       "time": "15:40",
       "fullDate": "2025-12-27 15:40:00",
@@ -508,19 +498,19 @@
       "time": "23:45",
       "fullDate": "2025-12-27 23:45:00",
       "price": 35.06
+    },
+    {
+      "time": "23:50",
+      "fullDate": "2025-12-27 23:50:00",
+      "price": 35.06
+    },
+    {
+      "time": "23:55",
+      "fullDate": "2025-12-27 23:55:00",
+      "price": 35.06
     }
   ],
   "signals": [
-    {
-      "time": "22:10",
-      "price": 35.16,
-      "signal": "hold"
-    },
-    {
-      "time": "22:15",
-      "price": 35.16,
-      "signal": "hold"
-    },
     {
       "time": "22:20",
       "price": 35.16,
@@ -610,14 +600,24 @@
       "time": "23:45",
       "price": 35.06,
       "signal": "hold"
+    },
+    {
+      "time": "23:50",
+      "price": 35.06,
+      "signal": "hold"
+    },
+    {
+      "time": "23:55",
+      "price": 35.06,
+      "signal": "hold"
     }
   ],
   "strategies": [
     {
       "name": "Perfect Foresight",
-      "profit": 16709.44,
-      "charges": 57,
-      "discharges": 57
+      "profit": 16697.73,
+      "charges": 58,
+      "discharges": 58
     },
     {
       "name": "Greedy",
@@ -633,17 +633,17 @@
     },
     {
       "name": "Dynamic Programming",
-      "profit": 28661.2,
+      "profit": 28659.65,
       "charges": 196,
       "discharges": 196
     }
   ],
   "bestStrategy": "Dynamic Programming",
-  "bestProfit": 28661.2,
-  "annualizedProfit": 5230668.87,
+  "bestProfit": 28659.65,
+  "annualizedProfit": 5230386.26,
   "dataRange": {
-    "start": "2025-12-25 23:45:00",
-    "end": "2025-12-27 23:45:00",
+    "start": "2025-12-25 23:55:00",
+    "end": "2025-12-27 23:55:00",
     "days": 2
   }
 }
