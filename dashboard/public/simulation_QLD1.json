@@ -1,24 +1,14 @@
 {
-  "lastUpdated": "2025-12-27T16:55:53.217851",
+  "lastUpdated": "2025-12-27T17:01:43.133031",
   "region": "QLD1",
   "stats": {
-    "current": 35.0,
-    "mean": 23.79,
+    "current": 34.75,
+    "mean": 23.63,
     "min": -14.99,
     "max": 74.71,
-    "count": 577
+    "count": 576
   },
   "prices": [
-    {
-      "time": "18:40",
-      "fullDate": "2025-12-27 18:40:00",
-      "price": 44.94
-    },
-    {
-      "time": "18:45",
-      "fullDate": "2025-12-27 18:45:00",
-      "price": 54.47
-    },
     {
       "time": "18:50",
       "fullDate": "2025-12-27 18:50:00",
@@ -508,19 +498,19 @@
       "time": "02:55",
       "fullDate": "2025-12-28 02:55:00",
       "price": 35.0
+    },
+    {
+      "time": "03:00",
+      "fullDate": "2025-12-28 03:00:00",
+      "price": 34.75
+    },
+    {
+      "time": "03:05",
+      "fullDate": "2025-12-28 03:05:00",
+      "price": 34.75
     }
   ],
   "signals": [
-    {
-      "time": "01:20",
-      "price": 54.96,
-      "signal": "sell"
-    },
-    {
-      "time": "01:25",
-      "price": 20.04,
-      "signal": "buy"
-    },
     {
       "time": "01:30",
       "price": 35.3,
@@ -610,18 +600,28 @@
       "time": "02:55",
       "price": 35.0,
       "signal": "hold"
+    },
+    {
+      "time": "03:00",
+      "price": 34.75,
+      "signal": "hold"
+    },
+    {
+      "time": "03:05",
+      "price": 34.75,
+      "signal": "hold"
     }
   ],
   "strategies": [
     {
       "name": "Perfect Foresight",
-      "profit": 11539.16,
+      "profit": 11813.88,
       "charges": 61,
-      "discharges": 59
+      "discharges": 61
     },
     {
       "name": "Greedy",
-      "profit": 7558.34,
+      "profit": 7426.04,
       "charges": 33,
       "discharges": 33
     },
@@ -633,17 +633,17 @@
     },
     {
       "name": "Dynamic Programming",
-      "profit": 24467.15,
-      "charges": 215,
-      "discharges": 215
+      "profit": 24451.26,
+      "charges": 214,
+      "discharges": 214
     }
   ],
   "bestStrategy": "Dynamic Programming",
-  "bestProfit": 24467.15,
-  "annualizedProfit": 4465255.68,
+  "bestProfit": 24451.26,
+  "annualizedProfit": 4462354.59,
   "dataRange": {
-    "start": "2025-12-26 02:55:00",
-    "end": "2025-12-28 02:55:00",
+    "start": "2025-12-26 03:05:00",
+    "end": "2025-12-28 03:05:00",
     "days": 2
   }
 }
